@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-        getData();
+        getData();      //请求网络数据
 
         //点击条目跳转至网页加载页面
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
