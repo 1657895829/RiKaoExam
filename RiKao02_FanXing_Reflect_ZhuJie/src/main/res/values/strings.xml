@@ -1,0 +1,3 @@
+<resources>
+    <string name="app_name">2-自定义泛型，注解类，使用反射invoke运行</string>
+</resources>
