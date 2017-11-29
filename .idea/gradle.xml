@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/RiKao01_FrescoListView" />
+            <option value="$PROJECT_DIR$/ZhuJie_FanXing_LianXi" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
