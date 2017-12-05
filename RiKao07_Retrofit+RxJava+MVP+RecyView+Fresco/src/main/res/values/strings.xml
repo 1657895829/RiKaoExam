@@ -1,0 +1,3 @@
+<resources>
+    <string name="app_name">7_Retrofit+RxJava的get请求数据,使用@QueryMap注解传递集合参数+MVP分层+RecyclerView+Fresco+OkHttp</string>
+</resources>
