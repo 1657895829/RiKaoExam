@@ -25,7 +25,7 @@ public interface GetDataInterface {
     /**
      * 使用Retrofit的get请求数据，使用@QueryMap注解传递集合参数
      */
-    @POST("/nba")
+    @POST("/nba")           //此时使用@POST也可用
     Call<Bean> get2(@QueryMap Map<String,String> map);
 
     /**
