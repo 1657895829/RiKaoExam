@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fbfbfb"  >
+
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:background="#f48403"
+        android:layout_height="58dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:text="分类"/>
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"  >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/fl_zuorv"
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+
+        <ExpandableListView
+            android:id="@+id/fl_yourv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" ></ExpandableListView>
+    </LinearLayout>
+
+</LinearLayout>
