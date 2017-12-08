@@ -1,3 +1,3 @@
 <resources>
-    <string name="app_name">10-MVP分层+两个RecyclerView实现京东左右分类+Retrofit+OkHttp+RxJava</string>
+    <string name="app_name">10-MVP分层+两个RecyclerView实现京东左右分类+Retrofit+OkHttp+RxJava（封装工具类，@Query注解传参）</string>
 </resources>
