@@ -2,8 +2,6 @@ package app.com.rikao13;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
@@ -12,7 +10,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 import app.com.rikao13.bean.LoginBean;
 import app.com.rikao13.presenter.LoginPresenter;
-import app.com.rikao13.shared.SharedUtils;
 import app.com.rikao13.view.MyView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -30,38 +27,14 @@ public class LoginActivity extends AppCompatActivity implements MyView.LoginView
     Button reg;
     private LoginPresenter presenter;
 
-    private Handler handler = new Handler() {
-        @Override
-        public void handleMessage(Message msg) {
-            switch (msg.what) {
-                case 0:
-                    Intent intent = new Intent(LoginActivity.this, PersonInfoActivity.class);
-                    startActivity(intent);
-                    finish();
-                    break;
-
-                default:
-                    break;
-            }
-        }
-    };
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+
         //调用p层
         presenter = new LoginPresenter(this);
-
-        //调用工具类判断保存的布尔值
-        boolean b = SharedUtils.getBooleanData(LoginActivity.this, "flag", false);
-
-        if (b) {    //已经进入过，现在是第二次
-            handler.sendEmptyMessageDelayed(0, 0);
-        } else {        //现在是第一次
-            SharedUtils.savaBooleanData(LoginActivity.this, "flag", true);
-        }
 
     }
 
