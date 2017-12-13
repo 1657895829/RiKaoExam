@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">14_自定义标题栏布局，实现控制标题栏按钮监听</string>
+
+
+    <string name="text_back">返回</string>
+    <string name="text_forward">提交</string>
+</resources>
