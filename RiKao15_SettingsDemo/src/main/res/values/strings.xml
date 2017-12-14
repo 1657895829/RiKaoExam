@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">15_Android设置页面 Mvp分层+Retrofit+RxJava+OkHttp 获取版本信息下载apk文件（不完整）</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>
