@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 缩放动画的私有属性：
+        fromXScale：动画开始时的x轴放大的倍数
+		toXScale	   ：动画结束时的x轴放大的倍数
+		fromYScale：动画开始时Y轴放大的倍数
+		toYScale    ：动画开始时Y轴放大的倍数
+-->
+
+<scale
+    android:fromXScale="1"
+    android:toXScale="5"
+    android:fromYScale="1"
+    android:toYScale="5"
+    android:duration="3000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+</scale>

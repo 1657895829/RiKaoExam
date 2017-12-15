@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"  >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!-- 自定义控件的全类名 -->
+        <app.example.com.property_circleview.CircleView
+            android:id="@+id/ball"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_above="@+id/linearLayout3"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="28dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout2" >
+
+        <LinearLayout
+            android:id="@+id/left"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" >
+
+                <Button
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/button1"
+                    android:text="旋转"/>
+
+                <Button
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/button2"
+                    android:text="平移"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/right"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" >
+                <Button
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/button3"
+                    android:text="缩放"/>
+
+                <Button
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/button4"
+                    android:text="渐变"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_alignParentLeft="true"
+            android:layout_height="wrap_content"
+            android:text="ValueAnimator平移"
+            android:layout_width="218dp"
+            android:id="@+id/value"
+            />
+
+        <Button
+            android:layout_alignParentRight="true"
+            android:text="ObjectAnimator组合动画"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/object" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

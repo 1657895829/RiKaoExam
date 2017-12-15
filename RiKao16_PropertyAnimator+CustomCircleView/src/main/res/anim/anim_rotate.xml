@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 旋转动画的私有属性：
+        fromDegrees：动画开始时的旋转的度数
+		toDegrees	  ：动画结束时的旋转的度数
+		pivotX：动画开始时以X轴方向上的中心点位置
+		pivotY：动画开始时以Y轴方向上的中心点位置
+-->
+
+<rotate
+    android:fromDegrees="0"
+    android:toDegrees="360"
+    android:pivotX="10%"
+    android:pivotY="10%"
+    android:duration="2000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+</rotate>

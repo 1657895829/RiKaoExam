@@ -1,0 +1,3 @@
+<resources>
+    <string name="app_name">16_自定义圆形view：anim文件夹xml布局实现缩放、旋转、平移、渐变+ObjectAnimator实现组合动画+ValueAnimator实现小球屏幕上移动</string>
+</resources>
