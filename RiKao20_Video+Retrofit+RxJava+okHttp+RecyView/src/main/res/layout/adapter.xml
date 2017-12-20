@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"  >
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="368dp"
+        fresco:actualImageScaleType="focusCrop"
+        fresco:placeholderImageScaleType="fitCenter"
+        fresco:placeholderImage="@drawable/app_default"
+        fresco:failureImage="@drawable/load_error_image"
+        fresco:failureImageScaleType="fitCenter" />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/custom_xq_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apple iPhone 8 Plus"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/custom_xq_bargin_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:text="¥6688.00"
+        android:textColor="#f46b04"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/shop_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¥6688.00"
+        android:textColor="#737373"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
