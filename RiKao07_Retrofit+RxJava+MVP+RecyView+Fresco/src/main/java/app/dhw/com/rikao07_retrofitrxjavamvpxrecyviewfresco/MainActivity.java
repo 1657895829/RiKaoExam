@@ -13,7 +13,6 @@ import butterknife.ButterKnife;
 
 //Fragment页面设置页
 public class MainActivity extends AppCompatActivity {
-
     @BindView(R.id.bottom_tab_bar)
     BottomTabBar bottomTabBar;
 
@@ -41,4 +40,5 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
     }
+
 }

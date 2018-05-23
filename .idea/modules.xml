@@ -3,8 +3,20 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RiKao01_FrescoListView/RiKao01_FrescoListView.iml" filepath="$PROJECT_DIR$/RiKao01_FrescoListView/RiKao01_FrescoListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RiKao02_FanXing_Reflect_ZhuJie/RiKao02_FanXing_Reflect_ZhuJie.iml" filepath="$PROJECT_DIR$/RiKao02_FanXing_Reflect_ZhuJie/RiKao02_FanXing_Reflect_ZhuJie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RiKao03_EventBus+ButterKnife+RecyclerView/RiKao03_EventBus+ButterKnife+RecyclerView.iml" filepath="$PROJECT_DIR$/RiKao03_EventBus+ButterKnife+RecyclerView/RiKao03_EventBus+ButterKnife+RecyclerView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RiKao04_GreenDao_Retrofit/RiKao04_GreenDao_Retrofit.iml" filepath="$PROJECT_DIR$/RiKao04_GreenDao_Retrofit/RiKao04_GreenDao_Retrofit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RiKao07_Retrofit+RxJava+MVP+RecyView+Fresco/RiKao07_Retrofit+RxJava+MVP+RecyView+Fresco.iml" filepath="$PROJECT_DIR$/RiKao07_Retrofit+RxJava+MVP+RecyView+Fresco/RiKao07_Retrofit+RxJava+MVP+RecyView+Fresco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RiKao08_RxJava_Retrofit+Mvp+xRecyView+Fresco/RiKao08_RxJava_Retrofit+Mvp+xRecyView+Fresco.iml" filepath="$PROJECT_DIR$/RiKao08_RxJava_Retrofit+Mvp+xRecyView+Fresco/RiKao08_RxJava_Retrofit+Mvp+xRecyView+Fresco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RiKao09_MVP+Retrofit+RxJava+Ok+XRecView+Fresco/RiKao09_MVP+Retrofit+RxJava+Ok+XRecView+Fresco.iml" filepath="$PROJECT_DIR$/RiKao09_MVP+Retrofit+RxJava+Ok+XRecView+Fresco/RiKao09_MVP+Retrofit+RxJava+Ok+XRecView+Fresco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RiKao10_MVP+RecycleView+Retrofit+OkHttp+RxJava/RiKao10_MVP+RecycleView+Retrofit+OkHttp+RxJava.iml" filepath="$PROJECT_DIR$/RiKao10_MVP+RecycleView+Retrofit+OkHttp+RxJava/RiKao10_MVP+RecycleView+Retrofit+OkHttp+RxJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RiKao13_UserCenter_Login+Reg_Retrofit/RiKao13_UserCenter_Login+Reg_Retrofit.iml" filepath="$PROJECT_DIR$/RiKao13_UserCenter_Login+Reg_Retrofit/RiKao13_UserCenter_Login+Reg_Retrofit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RiKao14_CustomTitleActivity/RiKao14_CustomTitleActivity.iml" filepath="$PROJECT_DIR$/RiKao14_CustomTitleActivity/RiKao14_CustomTitleActivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RiKao15_SettingsDemo/RiKao15_SettingsDemo.iml" filepath="$PROJECT_DIR$/RiKao15_SettingsDemo/RiKao15_SettingsDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RiKao16_PropertyAnimator+CustomCircleView/RiKao16_PropertyAnimator+CustomCircleView.iml" filepath="$PROJECT_DIR$/RiKao16_PropertyAnimator+CustomCircleView/RiKao16_PropertyAnimator+CustomCircleView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RiKao20_Video+Retrofit+RxJava+okHttp+RecyView/RiKao20_Video+Retrofit+RxJava+okHttp+RecyView.iml" filepath="$PROJECT_DIR$/RiKao20_Video+Retrofit+RxJava+okHttp+RecyView/RiKao20_Video+Retrofit+RxJava+okHttp+RecyView.iml" />
       <module fileurl="file://$PROJECT_DIR$/RiKaoExam.iml" filepath="$PROJECT_DIR$/RiKaoExam.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ZhuJie_FanXing_LianXi/RiKao02_ZhuJie_FanXing.iml" filepath="$PROJECT_DIR$/ZhuJie_FanXing_LianXi/RiKao02_ZhuJie_FanXing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhuJie_FanXing_LianXi/ZhuJie_FanXing_LianXi.iml" filepath="$PROJECT_DIR$/ZhuJie_FanXing_LianXi/ZhuJie_FanXing_LianXi.iml" />
     </modules>
   </component>
 </project>

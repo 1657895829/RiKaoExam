@@ -9,6 +9,18 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/RiKao01_FrescoListView" />
+            <option value="$PROJECT_DIR$/RiKao02_FanXing_Reflect_ZhuJie" />
+            <option value="$PROJECT_DIR$/RiKao03_EventBus+ButterKnife+RecyclerView" />
+            <option value="$PROJECT_DIR$/RiKao04_GreenDao_Retrofit" />
+            <option value="$PROJECT_DIR$/RiKao07_Retrofit+RxJava+MVP+RecyView+Fresco" />
+            <option value="$PROJECT_DIR$/RiKao08_RxJava_Retrofit+Mvp+xRecyView+Fresco" />
+            <option value="$PROJECT_DIR$/RiKao09_MVP+Retrofit+RxJava+Ok+XRecView+Fresco" />
+            <option value="$PROJECT_DIR$/RiKao10_MVP+RecycleView+Retrofit+OkHttp+RxJava" />
+            <option value="$PROJECT_DIR$/RiKao13_UserCenter_Login+Reg_Retrofit" />
+            <option value="$PROJECT_DIR$/RiKao14_CustomTitleActivity" />
+            <option value="$PROJECT_DIR$/RiKao15_SettingsDemo" />
+            <option value="$PROJECT_DIR$/RiKao16_PropertyAnimator+CustomCircleView" />
+            <option value="$PROJECT_DIR$/RiKao20_Video+Retrofit+RxJava+okHttp+RecyView" />
             <option value="$PROJECT_DIR$/ZhuJie_FanXing_LianXi" />
           </set>
         </option>
